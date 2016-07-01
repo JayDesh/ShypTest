@@ -1,0 +1,35 @@
+body{
+  display: inline-block;;
+  margin: 5% 20%;
+}
+
+.month{
+  font-size: 25px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+tr,td{
+  min-width: 125px;
+  min-height: 100px;
+  border: thin solid #bfbfbf;
+  text-align: right;
+  vertical-align: top;
+}
+
+td div{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: thin solid #bfbfbf;
+  display: inline-block;
+  font-size: 10px;
+  padding: 3px;
+  margin: 3px 3px 20px;
+}
+
+.emptyCells{
+  background-color: #edecec;
+}
